@@ -1,0 +1,15 @@
+{
+	"name": "testing-vanilla-js",
+	"description": "Learn how to test your JavaScript.",
+	"version": "1.0.0",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"server": "python3 -m http.server 8000",
+		"test:e2e": "npx playwright test"
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.24.1",
+		"playwright": "^1.24.1"
+	}
+}
